@@ -50,10 +50,11 @@ export default function Teams() {
     >
       <div className="flex flex-col md:flex-row gap-6 md:gap-12">
         <div className="w-full md:w-1/3">
-          <h2 className="text-3xl md:text-4xl font-bold">Meet Headbox Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">
+            Meet Cyborg Ape Team
+          </h2>
           <p className="mt-4 text-sm md:text-base text-gray-500">
-            Hi everyone! So we are a box-united team, we love to hide inside the
-            box but we are thinking out of the box!
+            Hi everyone! So we are a cyborg ape team.
           </p>
         </div>
         <div className="w-full md:w-2/3">
