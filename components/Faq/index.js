@@ -3,7 +3,7 @@ const faq = [
     id: 1,
     question: "When is the drop?",
     answer:
-      "On Wednesday and Friday! We will share the countdown on instagram before the drop!!",
+      "On Friday! Please join our discord server to keep updated about the drop https://discord.gg/YK3BjTmAFB",
   },
   {
     id: 2,
@@ -18,7 +18,8 @@ const faq = [
   {
     id: 4,
     question: "Is there a whitelist?",
-    answer: "No! You can get the Ape on our Opensea once we listed it!",
+    answer:
+      "No! We always update about how is the system for the drop on our discord server! https://discord.gg/YK3BjTmAFB",
   },
   {
     id: 5,
@@ -32,18 +33,12 @@ const faq = [
     answer:
       "Every Ape Yacht Club holders are given commercial rights to their specific ape. You can sell its likeness or make derivatives of it.",
   },
-  {
-    id: 7,
-    question: "What is Cyborg Ape Kids",
-    answer:
-      "Cyborg Ape Kids is a derivative project from Ape Kids Club, There will be 5K collections for Cyborg Ape Kids. We will choose 5 Holders that will manage our new project! Every Cyborg Ape Holders also get Free 1x Mint for Cyborg Ape Kids. (Not Affiliated With Ape Kids Club)",
-  },
 ];
 
 export default function Faq() {
   return (
     <>
-      <div className="px-12 md:px-20" id="faq" data-aos="fade-up">
+      <div className="px-12 md:px-20" id="faq">
         <div className="flex flex-col md:flex-row gap-6 md:gap-12 max-w-[90rem] mx-auto">
           <div className="w-full md:w-1/3">
             <h2 className="text-3xl md:text-4xl font-bold">

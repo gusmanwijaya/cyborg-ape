@@ -1,4 +1,3 @@
-import AOS from "aos";
 import Image from "next/image";
 import Header from "../components/Header";
 import { useEffect } from "react";
@@ -8,8 +7,6 @@ export default function NotFound() {
   const router = useRouter();
 
   useEffect(() => {
-    AOS.init();
-
     setTimeout(() => {
       router.push("/");
     }, 5000);
@@ -18,10 +15,7 @@ export default function NotFound() {
   return (
     <>
       <Header title="Error 404 Not Found" />
-      <section
-        className="h-screen flex flex-col items-center justify-center"
-        data-aos="fade-in"
-      >
+      <section className="h-screen flex flex-col items-center justify-center">
         <Image
           src="/img/404.svg"
           width={600}

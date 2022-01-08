@@ -1,4 +1,3 @@
-import AOS from "aos";
 import Image from "next/image";
 import Header from "../components/Header";
 import { useEffect } from "react";
@@ -8,8 +7,6 @@ export default function Soon() {
   const router = useRouter();
 
   useEffect(() => {
-    AOS.init();
-
     setTimeout(() => {
       router.push("/");
     }, 10000);
@@ -18,10 +15,7 @@ export default function Soon() {
   return (
     <>
       <Header title="Coming Soon" />
-      <section
-        className="h-screen flex flex-col items-center justify-center"
-        data-aos="fade-in"
-      >
+      <section className="h-screen flex flex-col items-center justify-center">
         <Image
           src="/img/coming-soon.svg"
           width={600}

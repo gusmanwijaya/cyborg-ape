@@ -1,5 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
+import Link from "next/link";
 
 export default function HamburgerMenu() {
   return (
@@ -54,13 +55,12 @@ export default function HamburgerMenu() {
               </Menu.Item>
               <Menu.Item>
                 <div className="flex items-center">
-                  <a
-                    href="/soon"
-                    className="font-medium text-gray-900 group flex rounded-md items-center px-2 py-2 text-sm"
-                  >
-                    Coming
-                  </a>
-                  <button className="ml-3 text-sm rounded-md bg-secondary px-3 h-5 text-white cursor-default">
+                  <Link href="/soon">
+                    <a className="font-medium text-gray-900 group flex rounded-md items-center px-2 py-2 text-sm">
+                      Coming
+                    </a>
+                  </Link>
+                  <button className="ml-1 text-sm rounded-md bg-secondary px-3 h-5 text-white cursor-default">
                     Soon
                   </button>
                 </div>
