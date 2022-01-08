@@ -74,7 +74,7 @@ export default function HamburgerMenu() {
                   rel="noreferrer"
                   className="bg-secondary hover:bg-gray-700 transition-all duration-300 ease-in-out px-2 py-3 rounded-lg text-white font-bold shadow-xl shadow-secondary/30 text-sm block text-center"
                 >
-                  Connect Now
+                  Buy On Opensea
                 </a>
               </Menu.Item>
             </div>

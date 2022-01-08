@@ -22,9 +22,9 @@ export default function NotFound() {
           height={400}
           alt="404 - Not Found"
         />
-        <h1 className="text-xl lg:text-3xl text-gray-900 text-center">
+        <h1 className="text-xl lg:text-3xl text-gray-300 text-center">
           Opps! We lost you. <br />{" "}
-          <span className="text-base lg:text-xl text-gray-400 font-light">
+          <span className="text-base lg:text-xl text-gray-500 font-light">
             Page not found.
           </span>{" "}
         </h1>

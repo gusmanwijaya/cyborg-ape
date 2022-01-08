@@ -11,7 +11,7 @@ export default function Header(props) {
           name="description"
           content="Cyborg Ape is a collection combined from the Ape element and Robot element! All Apes are Hand Made! Detail and Uniqueness are our priority!Derivative Ape. (Not Affiliated with BAYC)"
         />
-        <link rel="icon" href="/img/logo.svg" />
+        <link rel="icon" href="/img/logo.png" />
 
         {/* AOS Animation */}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

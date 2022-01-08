@@ -8,7 +8,7 @@ export default function Benefit() {
           <img src="/img/arts/3.png" className="rounded-xl" alt="" />
         </div>
         <div className="md:w-3/4 md:ml-24 mb-8 md:mb-0 text-center md:text-left">
-          <h1 className="font-bold text-3xl md:text-5xl">
+          <h1 className="font-bold text-3xl md:text-5xl text-gray-300">
             Benefit by Holding Cyborg Ape
           </h1>
           <p className="mt-6 text-gray-500 text-sm md:text-base">
