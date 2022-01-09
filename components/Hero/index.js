@@ -12,9 +12,12 @@ export default function Hero() {
             Cyborg Ape
           </h1>
           <p className="md:px-36 text-gray-500 text-sm md:text-base">
-            Cyborg Ape is a collection combined from the Ape element and Robot
-            element! All Apes are Hand Made! Detail and Uniqueness are our
-            priority!Derivative Ape. (Not Affiliated with BAYC).
+            Cyborg Ape displays the combined elements of Robotic mechanisms and
+            Ape like features. Every Ape that is a part of our genesis program
+            are all Hand Made 1 of 1s. With our Cyborg Apes we value Detail and
+            Uniqueness as our priority! This is a Derivative project that
+            displays the value in robotic arts combined with the arts of Apes.
+            (This project is Not Affiliated with BAYC).
           </p>
         </div>
       </div>
