@@ -49,7 +49,7 @@ export default function Faq() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-300">
               Frequently Asked Question
             </h2>
-            <p className="mt-4 text-sm md:text-base text-gray-300">
+            <p className="mt-4 text-sm md:text-base text-gray-500">
               Can`t find the answer you`re looking for? Reach out to our
               customer support team for assistance! They are always willing to
               help.
