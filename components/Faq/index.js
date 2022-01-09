@@ -66,23 +66,6 @@ export default function Faq() {
                 </p>
               </div>
             ))}
-            <div>
-              <p className="font-semibold text-sm md:text-base text-gray-300">
-                This is awesome. How do I get involved in it?
-              </p>
-              <p className="mt-2 text-gray-500 text-sm md:text-base">
-                Just hop over to this{" "}
-                <a
-                  href="https://discord.gg/YK3BjTmAFB"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-secondary border-secondary hover:underline"
-                >
-                  link
-                </a>
-                , join in on the conversation, and let us know your ideas!
-              </p>
-            </div>
           </div>
         </div>
       </div>
