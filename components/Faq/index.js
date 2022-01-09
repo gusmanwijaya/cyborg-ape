@@ -1,9 +1,9 @@
 const faq = [
   {
     id: 1,
-    question: "When is the drop?",
+    question: "When are drops?",
     answer:
-      "On Friday! Please join our discord server to keep updated about the drop https://discord.gg/YK3BjTmAFB",
+      "All our drops are Friday for our genesis apes. Please join our discord server to keep updated about every time we have a drop https://discord.gg/YK3BjTmAFB",
   },
   {
     id: 2,
@@ -19,19 +19,24 @@ const faq = [
     id: 4,
     question: "Is there a whitelist?",
     answer:
-      "No! We always update about how is the system for the drop on our discord server! https://discord.gg/YK3BjTmAFB",
+      "No! We do not have a whitelist for our genesis project however for the future, we may have a whitelist for our generation projects.",
   },
   {
     id: 5,
-    question: "What do the Mutant Ape mean in the Roadmap?",
+    question: "What does the Mutant Ape mean in our Roadmap?",
     answer:
-      "Every Mutant Ape Yacht Club holders are given commercial rights to their specific ape. You can sell its likeness or make derivatives of it. So we will make the traits and add it to our Mutant Ape then share it to Cyborg Ape holders!",
+      "We will be making mutant cyborg apes once we reach our sales Goal of Cyborg Apes. Cyborg Ape will be purchasing a Mutant Ape Yacht Club NFT in Order to continue with this idea once our roadmap goes is met. Every Mutant Ape Yacht Club holder is given commercial rights to their specific ape. You can sell its likeness or make derivatives of it. We will be using the features of our Mutant Ape We buy to create mutant variants of our Cyborg Apes.",
   },
   {
     id: 6,
-    question: "What is derivative Ape?",
+    question: "What is a derivative Ape?",
     answer:
-      "Every Ape Yacht Club holders are given commercial rights to their specific ape. You can sell its likeness or make derivatives of it.",
+      "Every Ape Yacht Club holders are given commercial rights to their specific ape so you can sell its likeness or make derivatives of it in any shape or form.",
+  },
+  {
+    id: 7,
+    question: "How do I get involved in Cyborg Apes?",
+    answer: "Just hop over to this link and join in on the conversation!",
   },
 ];
 
@@ -45,11 +50,9 @@ export default function Faq() {
               Frequently Asked Question
             </h2>
             <p className="mt-4 text-sm md:text-base text-gray-300">
-              Can`t find the answer you`re looking for? Reach out to our{" "}
-              <span className="font-semibold text-secondary">
-                customer support
-              </span>{" "}
-              team.
+              Can`t find the answer you`re looking for? Reach out to our
+              customer support team for assistance! They are always willing to
+              help.
             </p>
           </div>
           <div className="w-full md:w-2/3 space-y-8">
