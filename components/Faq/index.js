@@ -8,7 +8,7 @@ const faq = [
   {
     id: 2,
     question: "How much does it cost for an Ape?",
-    answer: "0.1 ETH + gas",
+    answer: "0.2 ETH + gas",
   },
   {
     id: 3,
